@@ -13,13 +13,19 @@ Key Outputs:
 
 ### Methods
 Hamiltonian:
-$$\hat H = \hat H_{TB} + \hat H_U$$
+$$
+\hat H = \hat H_{TB} + \hat H_U
+$$
 
 Tight-Binding:
-$$\hat H_{TB} = \Sigma_{ij,\sigma} t_{ij} \hat c_{i\sigma}^\dagger \hat c_{j \sigma}$$
+$$
+\hat H_{TB} = \Sigma_{ij,\sigma} t_{ij} \hat c_{i\sigma}^\dagger \hat c_{j \sigma}
+$$
 
 Mean-field interactioon on-site Hubbard U:
-$$\hat H_U = U \Sigma_i \hat n_{i \uparrow} \hat n_{i \downarrow}$$
+$$
+\hat H_U = U \Sigma_i \hat n_{i \uparrow} \hat n_{i \downarrow}
+$$
 
 - last part of this class is group of functions to extract the positions, only consist of coordinates or with atom name such as Carbon thus we can add such as hydrogen using other software such as avogadro. In the beginning of installation the program will produce empty folder: structures, graphics, eigenvalues
 
