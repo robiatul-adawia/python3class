@@ -19,6 +19,10 @@ $$\hat H_{TB} = \Sigma_{ij,\sigma} t_{ij}\hat c_{i\sigma}^\dagger \hat c_{j \sig
 <br>
 Mean-field interaction on-site Hubbard U:
 $$\hat H_U = U \Sigma_i \hat n_{i\uparrow}\hat n_{i\downarrow}$$
+<br> Spin density: $$\frac{N_{\uparrow}-N_{\downarrow}}{2}$$
+<br>
+Here's a reference to know more about triangulene chains:<br>
+Experimental result of [Nanographene chains](https://www.nature.com/articles/s41586-021-03842-3)
 
 - last part of this class is group of functions to extract the positions, only consist of coordinates or with atom name such as Carbon thus we can add such as hydrogen using other software such as avogadro. In the beginning of installation the program will produce empty folder: structures, graphics, eigenvalues
 
