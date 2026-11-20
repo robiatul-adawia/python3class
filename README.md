@@ -5,6 +5,9 @@ What is Triangulene?
 What for?
 Why do we need to design? give picture as an example
 To study the electronic and magnetic properties
+
+![Triangulenes illustration](triangulene_chain.png)
+
 ### Method
 rotation equation
 
