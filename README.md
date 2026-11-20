@@ -12,10 +12,20 @@ Key Outputs:
 ![Triangulenes illustration](triangulene_chain.png)
 
 ### Methods
-rotation equation
+Hamiltonian:
+```
+\hat H = \hat H_{TB} + \hat H_U
+```
 
-- Structure class: create triangulene fragments, provide functions like 6-sites or benzene, 13-sites, 22-sites, etc. and what's the distance between nearest site, for now there are two option: distance = 1 and 1.42 for Carbon.
-- In structure class we also have active function, such as to create benzene, add, rotate, function to decide which coordinate our fragments will be connected, etc
+Tight-Binding:
+```
+\hat H_{TB} = \Sigma_{ij,\sigma} t_{ij} \hat c_{i\sigma}^+ \hat c_{j \sigma}
+```
+Mean-field interactioon on-site Hubbard U:
+```
+\hat H_U = U \Sigma_i \hat n_{i \uparrow} \hat n_{i \downarrow}
+```
+
 - last part of this class is group of functions to extract the positions, only consist of coordinates or with atom name such as Carbon thus we can add such as hydrogen using other software such as avogadro. In the beginning of installation the program will produce empty folder: structures, graphics, eigenvalues
 
 -Analysis class: from here we start doing calculation, for TB, mean-field approximation, Hubbards. Visualizations function such as charge density and spin density. calculate expectation energy. asdd function to upload files that we already create. output: charge densities, spin densities, expectation energies
