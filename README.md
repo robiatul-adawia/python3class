@@ -25,7 +25,8 @@ Here's a reference to know more about triangulene chains:<br>
 Experimental result of [Nanographene chains](https://www.nature.com/articles/s41586-021-03842-3)
 
 ### Draft
-- The structure class will produce 2 types of datasets: (1) only consist of coordinates (x, y, z), and (2) coordinate with atom symbol, for now only Carbon (C, x, y, z). We can add such as hydrogen using other software like Avogadro- Under consideration plan: In the beginning of installation the program will produce empty folder: structures, graphics, eigenvalues.
+- The structure class will produce 2 types of datasets: (1) only consist of coordinates (x, y, z), and (2) coordinate with atom symbol, for now only Carbon (C, x, y, z). We can add such as hydrogen using other software like Avogadro
+- Under consideration plan: In the beginning of installation the program will produce empty folder: structures, graphics, eigenvalues.
 
 ### How to install
 
