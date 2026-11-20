@@ -1,10 +1,9 @@
-# Designing Triangulene Chains
+# Low Dimensional Spin Mapping (Lowdspin)
 
 ### Introduction
-What is Triangulene?
-What for?
-Why do we need to design? give picture as an example
-To study the electronic and magnetic properties
+Lowdspin is a Python package for generating structural datasets of low-dimensional quantum simulator, including triangulene and related hexagon lattices. It maps charge and spin density distributions to investigate underlying electronic and magnetic properties.
+The primary outputs of the package include structural geometry files (.xyz and .dat), eigenvalue spectra, and spatial visualizations of charge and spin densities.
+Why do we need to design?
 
 ![Triangulenes illustration](triangulene_chain.png)
 
