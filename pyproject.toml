@@ -1,0 +1,12 @@
+[project]
+name = "lowdspin"
+version = "0.0.1"
+description = "Low Dimensional Spin Mapping."
+requires-python = ">=3.13"
+authors = [
+    {name = "Robiatul Adawia", email = "radawia@doktorant.umk.pl"},
+]
+
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
