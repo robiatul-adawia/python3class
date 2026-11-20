@@ -2,12 +2,16 @@
 
 ### Introduction
 Lowdspin is a Python package for generating structural datasets of low-dimensional quantum simulator, including triangulene and related hexagon lattices. It maps charge and spin density distributions to investigate underlying electronic and magnetic properties.
-The primary outputs of the package include structural geometry files (.xyz and .dat), eigenvalue spectra, and spatial visualizations of charge and spin densities.
-Why do we need to design?
+This tool is designed to automate and simplify the construction of diverse triangulene architectures, ranging from simple monomers to dimers and chain structures.
+
+Key Outputs:
+- Structure files: Ready-to-use geometry coordinates in .xyz and .dat formats.
+- Electronic data: Calculated energy eigenvalues.
+- Visualizations: Spatial maps of charge and spin density distributions.
 
 ![Triangulenes illustration](triangulene_chain.png)
 
-### Method
+### Methods
 rotation equation
 
 - Structure class: create triangulene fragments, provide functions like 6-sites or benzene, 13-sites, 22-sites, etc. and what's the distance between nearest site, for now there are two option: distance = 1 and 1.42 for Carbon.
